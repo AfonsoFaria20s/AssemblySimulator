@@ -48,9 +48,8 @@ This is a basic assembly language simulator written in Java. It supports basic a
 
 4. Run the simulator with your program:
     ```sh
-    java MainClasses.Main
+    java Main
     ```
 # Notes
-- Ensure that program.txt is located in the same directory as MainClasses.Main.java or adjust the file path accordingly.
 - The simulator uses a busy-wait loop to simulate delays; you can adjust or remove this as needed.
 - Feel free to modify and extend the simulator according to your needs. Happy coding!
