@@ -29,8 +29,13 @@ This is a basic assembly language simulator written in Java. It supports basic a
 - `JMPL r1, r2, addr` (0x0E): Conditional jump to address `addr` if the value of register `r1` is less than the value of register `r2`.
 - `NOOP` (0xFF): No operation.
 
-## Usage
+# Usage
+## Option 1
+1. Download the .jar file
+2. make sure you have jdk and jre properly installed
+3. Run the .jar file
 
+## Option 2
 1. Clone the repository:
     ```sh
     git clone https://github.com/AfonsoFaria20s/assembly-simulator.git
@@ -39,18 +44,7 @@ This is a basic assembly language simulator written in Java. It supports basic a
 
 2. Compile the Java files:
     ```sh
-    javac MainClasses.Assembly.java MainClasses.Main.java
-    ```
-
-3. Create a file named `program.txt` with your instructions, each on a new line. For example:
-    ```
-    MOV R1, 10
-    MOV R2, 5
-    ADD R1, R2, 0
-    STORE R1, 0
-    LOAD R1, 0
-    JMP 0
-    ```
+    javac Main.java
 
 4. Run the simulator with your program:
     ```sh
